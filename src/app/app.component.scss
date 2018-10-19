@@ -1,0 +1,18 @@
+.todo-frame {
+  width: 450px;
+  margin: auto;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 15px;
+  background: #ffffff;
+  height: 600px;
+  overflow: auto;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+.parent-bg {
+  background: linear-gradient(to right, rgb(178, 69, 146), rgb(241, 95, 121));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}

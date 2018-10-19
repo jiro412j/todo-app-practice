@@ -1,0 +1,9 @@
+<div class="todo d-flex align-items-center">
+  <p class="todo-text" [ngClass]="{'cross-out': todo.is_done}" (click)="markAsDone()">
+    {{ todo.text }}
+  </p>
+  <a class="delete-btn" href="javascript:void(0)" (click)="deleteTodo()">
+    <i class="fas fa-times"></i>
+  </a>
+  <!-- <button class="btn btn-danger btn-sm ml-3" (click)="deleteTodo()">Delete</button> -->
+</div>

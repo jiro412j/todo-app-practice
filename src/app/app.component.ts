@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todo-list';
+  todoList = [];
+
+  addTaskToList(task) {
+    this.todoList.push({
+      text: task,
+      id: Math.floor(Math.random() * Math.floor(10000)),
+      is_done: false
+    });
+  }
+
+  deleteTodo(id) {
+    this.todoList = this.todoList.filter(todo => todo.id !== id);
+  }
 }

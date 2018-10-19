@@ -1,0 +1,4 @@
+<div class="mt-3 mb-3">
+  <input type="text" (keyup.enter)="addTask()" [(ngModel)]="taskName" class="form-control" placeholder="Enter to add new task...">
+  <small style="color: lightcoral" *ngIf="showErrorMessage">Please type something before hit enter</small>
+</div>

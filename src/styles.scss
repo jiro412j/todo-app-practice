@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
