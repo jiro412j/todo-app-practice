@@ -2,7 +2,7 @@
 
 For learning basic angular syntax and stuffs
 
-![alt text](https://i.imgur.com/IY0noFV.png)
+![alt text](https://i.imgur.com/DHseGkS.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
