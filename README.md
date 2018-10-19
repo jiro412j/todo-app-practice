@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How to run this application
 
-Install requrired packages
+Install required packages
 
 ```
 $ npm install
