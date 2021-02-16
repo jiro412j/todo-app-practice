@@ -17,12 +17,13 @@ export class CreateTodoComponent implements OnInit {
   ngOnInit() {}
 
   addTask() {
-    if (this.taskName) {
-      this.showErrorMessage = false;
-      this.taskAdded.emit(this.taskName);
-      this.taskName = '';
-    } else {
+    if (!this.taskName) {
       this.showErrorMessage = true;
+      return;
     }
+    
+    this.showErrorMessage = false;
+    this.taskAdded.emit(this.taskName);
+    this.taskName = '';
   }
 }
